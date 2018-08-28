@@ -9,6 +9,18 @@
 composer install
 ```
 
+Создать .env
+
+```sh
+cp .env.example .env
+```
+
+Сгерерировать ключ
+
+```sh
+php artisan key:generate
+```
+
 Запуск приложения:
 
 ```sh
